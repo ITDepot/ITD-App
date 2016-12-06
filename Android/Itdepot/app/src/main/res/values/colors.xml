@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--app color-->
+    <color name="header_bar">#384799</color>
+    <color name="header_back">#4659BF</color>
+    <color name="status_bar">#4659BF</color>
+    <color name="button_blue">#4659BF</color>
+    <color name="blue_light">#A3B2FF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F2F6F7</color>
+    <color name="text_blue">#4659BF</color>
+    <color name="gray_light">#F2F6F7</color>
+    <color name="gray">#B8B8B8</color>
+    <color name="dark_gray">#9E9E9E</color>
+    <color name="trans_white">#E6FFFFFF</color>
+    <color name="loader_back">#D94659BF</color>
+    <color name="textview_back">#DADEE0</color>
+    <color name="dark_view">#BCC0C2</color>
+    <color name="dark_black">#101417</color>
+    <color name="colorBlue">#0170C1</color>
+    <color name="light_blue">#86C3EF</color>
+    <color name="green">#8BC53D</color>
+    <color name="colorParrot">#D5DE21</color>
+    <color name="textview_gray">#DADEE1</color>
+
+</resources>

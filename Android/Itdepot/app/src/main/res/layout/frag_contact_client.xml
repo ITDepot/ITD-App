@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/very_high_padding"
+                android:layout_marginRight="@dimen/very_high_padding"
+                android:layout_marginTop="@dimen/very_high_padding"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/imgClientInt"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/img_client_heigth"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/internet_button" />
+
+                <ImageView
+                    android:id="@+id/imgClientPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/img_client_heigth"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/phone_service_button" />
+
+                <ImageView
+                    android:id="@+id/imgClientCable"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/img_client_heigth"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cabling_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/chkIntClient"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/chk_client_heigth"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/uncheck"
+                    android:tag="0" />
+
+                <ImageView
+                    android:id="@+id/chkPhoneClient"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/chk_client_heigth"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/uncheck"
+                    android:tag="0" />
+
+                <ImageView
+                    android:id="@+id/chkCableClient"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/chk_client_heigth"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/uncheck"
+                    android:tag="0" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/small_text"
+                fontPath="fonts/Campton-SemiBold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding"
+                android:gravity="center"
+                android:padding="@dimen/common_padding"
+                android:text="@string/lbl_select_service" />
+
+            <TextView
+                style="@style/small_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/common_padding"
+                android:padding="@dimen/common_padding"
+                android:text="@string/lbl_contact_detail2" />
+
+            <TextView
+                style="@style/small_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/high_padding"
+                android:gravity="center"
+                android:text="@string/lbl_contact_detail3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/client_layout_margin"
+                android:layout_marginRight="@dimen/client_layout_margin"
+                android:layout_marginTop="@dimen/very_high_padding"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtBusinessName"
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_gray_border"
+                    android:gravity="center"
+                    android:hint="@string/client_business_nm"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/txtContactNm"
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_gray_border"
+                    android:gravity="center"
+                    android:hint="@string/client_contact"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/txtCellNumber"
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_gray_border"
+                    android:gravity="center"
+                    android:hint="@string/client_cell"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:singleLine="true"
+                    android:text="@string/or_" />
+
+                <EditText
+                    android:id="@+id/txtClientMail"
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_gray_border"
+                    android:gravity="center"
+                    android:hint="@string/client_email"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_install_msg"
+                    style="@style/small_text"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/txtClientMsg"
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_gray_border"
+                    android:gravity="center"
+                    android:hint="@string/message_"
+                    android:inputType="textMultiLine"
+                    android:lines="4"
+                    android:textColorHint="@color/black" />
+
+                <RelativeLayout
+                    android:id="@+id/relContactClient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/btn_client"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/contact_button_back" />
+
+                    <TextView
+                        style="@style/normal_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:singleLine="true"
+                        android:text="@string/contact_the_client"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

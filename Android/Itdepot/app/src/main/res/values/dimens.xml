@@ -1,0 +1,74 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!---->
+    <dimen name="small">1dp</dimen>
+    <dimen name="small_m">2dp</dimen>
+    <dimen name="small_l">3dp</dimen>
+    <dimen name="small_padding">3dp</dimen>
+    <dimen name="common_padding">5dip</dimen>
+    <dimen name="m_padding">15dp</dimen>
+    <dimen name="high_padding">10dip</dimen>
+    <dimen name="midd_padding">15dp</dimen>
+    <dimen name="very_high_padding">20dip</dimen>
+    <dimen name="textSizeHeader">20dip</dimen>
+    <dimen name="textSizeVeryBig">21dip</dimen>
+    <dimen name="textSizeMiddBig">23dip</dimen>
+    <dimen name="textSizeHeaderKaBaap">26dip</dimen>
+    <dimen name="textSizeNormal">16dip</dimen>
+    <dimen name="textSizeSmall">13dip</dimen>
+    <dimen name="textSizeVerySmall">11dip</dimen>
+    <dimen name="textSizeVeryVerySmall">9dip</dimen>
+    <dimen name="margin_left">30dp</dimen>
+    <dimen name="margin_top">30dp</dimen>
+    <dimen name="margin_midd">40dp</dimen>
+    <dimen name="margin_top_common">50dp</dimen>
+
+    <!---->
+
+    <!--ActMain-->
+    <dimen name="logo_weigth">150dp</dimen>
+    <dimen name="logo_heigth">35dp</dimen>
+    <dimen name="img_back">15dp</dimen>
+
+
+    <!--frag-request_propasal-->
+    <dimen name="margin_from_recurring">30dp</dimen>
+    <dimen name="rel_income_width">130dp</dimen>
+    <dimen name="margin_from_propoasal">40dp</dimen>
+    <dimen name="margin_from_layout">30dp</dimen>
+    <dimen name="img_proposal">120dp</dimen>
+    <dimen name="card_view_width">150dp</dimen>
+    <dimen name="propsal_imgs">140dp</dimen>
+
+    <!--frag_phone_services-->
+    <dimen name="img_contact_icon">20dp</dimen>
+    <dimen name="rel_width_call">200dp</dimen>
+
+    <!--frag_send_quotes-->
+    <dimen name="img_send_quote">30dp</dimen>
+    <dimen name="left_rigth_margin">40dp</dimen>
+
+    <!--frag_call_me-->
+    <dimen name="lr_margin">40dp</dimen>
+    <dimen name="img_call_me">30dp</dimen>
+    <dimen name="client_layout_margin">40dp</dimen>
+
+    <!--frag_your_account-->
+    <dimen name="img_next_arrow">15dp</dimen>
+    <dimen name="img_arrow_next">20dp</dimen>
+
+    <!--frag-contact-Me-->
+    <dimen name="img_callme_heigth">90dp</dimen>
+    <dimen name="checkbox_size">20dp</dimen>
+    <dimen name="margin_very_high">65dp</dimen>
+    <dimen name="img_btn_contact">40dp</dimen>
+
+    <!--frag_Contact_client-->
+    <dimen name="img_client_heigth">90dp</dimen>
+    <dimen name="chk_client_heigth">20dp</dimen>
+    <dimen name="btn_client">40dp</dimen>
+
+</resources>

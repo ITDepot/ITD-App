@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_account"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/big_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:background="@color/dark_black"
+            android:gravity="center"
+            android:padding="@dimen/high_padding"
+            android:text="@string/login_"
+            android:textColor="@color/white" />
+
+
+        <EditText
+            android:id="@+id/txtEmailLogin"
+            style="@style/small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:background="@drawable/edittext_black_border"
+            android:hint="@string/login_email"
+            fontPath="fonts/Campton-Light.ttf"
+            android:inputType="text"
+            android:paddingLeft="@dimen/high_padding" />
+
+        <EditText
+            android:id="@+id/txtPhoneLogin"
+            style="@style/small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:background="@drawable/edittext_black_border"
+            android:hint="@string/phone_nub"
+            fontPath="fonts/Campton-Light.ttf"
+            android:inputType="number"
+            android:paddingLeft="@dimen/high_padding" />
+
+
+        <RelativeLayout
+            android:id="@+id/relLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/contact_button_back" />
+
+            <TextView
+                style="@style/normal_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login_"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:color="@color/gray" android:width="@dimen/small_l"/>
+            <padding android:bottom="@dimen/small_l"
+                android:left="@dimen/small_l"
+                android:right="@dimen/small_l"
+                android:top="@dimen/small_l"/>
+            <corners android:bottomLeftRadius="@dimen/high_padding"
+                android:bottomRightRadius="@dimen/high_padding"
+                android:topLeftRadius="@dimen/high_padding"
+                android:topRightRadius="@dimen/high_padding"/>
+        </shape>
+    </item>
+</selector>

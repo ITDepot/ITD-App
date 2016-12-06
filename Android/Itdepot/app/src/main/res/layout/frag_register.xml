@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_account"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relSave">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                style="@style/big_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/very_high_padding"
+                android:background="@color/dark_black"
+                android:gravity="center"
+                android:padding="@dimen/high_padding"
+                android:text="@string/registration"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/llDetailReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/normal_text"
+                    fontPath="fonts/Campton-SemiBold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    android:text="@string/at_your_service" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/ans_and_sloution" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/src_of_income" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/keep_track" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/a_source_of_ic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/one_time" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top_common"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:text="@string/cabling_job"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/mr_commi" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top_common"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:text="@string/mi_services"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top_common"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:text="@string/phone_ser_pack"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginRight="@dimen/margin_left"
+                android:layout_marginTop="@dimen/very_high_padding"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtFname"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/first_name"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding" />
+
+                <EditText
+                    android:id="@+id/txtLname"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/last_name"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding" />
+
+                <EditText
+                    android:id="@+id/txtEmailRegister"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/email_reg"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/high_padding" />
+
+                <EditText
+                    android:id="@+id/txtPhoneRegister"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/high_padding" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:gravity="center"
+                    android:text="@string/adress"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/txtCmpName"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/cmp"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/txtStreet"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/street"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/txtSuit"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/suite"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/txtCity"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/city_"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/txtStateReg"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/state_"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/high_padding"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/txtZip"
+                    style="@style/small_text"
+                    fontPath="fonts/Campton-Light.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginRight="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:background="@drawable/edittext_black_border"
+                    android:hint="@string/zip_"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/high_padding"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:gravity="center"
+                    android:text="@string/lbl_receive_mail"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_top_common"
+        android:layout_marginTop="@dimen/very_high_padding"
+        android:layout_marginBottom="@dimen/very_high_padding"
+        android:layout_marginRight="@dimen/margin_top_common">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/contact_button_back" />
+
+        <TextView
+            style="@style/normal_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/save"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/lblClientPending"
+            style="@style/small_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding"
+            android:paddingTop="@dimen/common_padding"
+            android:singleLine="true"
+            fontPath="fonts/Campton-Light.ttf"/>
+
+        <TextView
+            android:id="@+id/lblServicesPending"
+            style="@style/small_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding"
+            android:paddingTop="@dimen/common_padding"
+            android:singleLine="true"
+            fontPath="fonts/Campton-Light.ttf"/>
+
+        <TextView
+            android:id="@+id/lblNrIncomePending"
+            style="@style/small_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding"
+            android:paddingTop="@dimen/common_padding"
+            android:singleLine="true"
+            fontPath="fonts/Campton-Light.ttf" />
+
+        <TextView
+            android:id="@+id/lblMrIncomePending"
+            style="@style/small_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding"
+            android:paddingTop="@dimen/common_padding"
+            android:singleLine="true"
+            fontPath="fonts/Campton-Light.ttf"/>
+
+        <TextView
+            android:id="@+id/lblEstPending"
+            style="@style/small_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding"
+            android:paddingTop="@dimen/common_padding"
+            android:singleLine="true"
+            fontPath="fonts/Campton-Light.ttf"/>
+    </LinearLayout>
+</LinearLayout>

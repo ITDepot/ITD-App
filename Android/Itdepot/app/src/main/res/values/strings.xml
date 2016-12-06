@@ -1,0 +1,312 @@
+<resources>
+    <string name="app_name">Itdepot</string>
+
+    <!--AppString-->
+    <string name="hello">Hello</string>
+    <string name="back_page">Back</string>
+    <string name="account_page">Account</string>
+    <string name="internet_error">Please check your internet connection.</string>
+
+    <!--ActMain-->
+    <string name="back">Back</string>
+    <string name="services_lbl">Services</string>
+    <string name="contact_numb">855-483-3768</string>
+
+    <!--Frag_request_propasal-->
+    <string name="recrring_income">Your Monthly\nRecurring Income</string>
+    <string name="request_proposal">Request a Proposal</string>
+    <string name="internet">Internet</string>
+    <string name="phone_services">Phone Services</string>
+    <string name="cabling">Cabling</string>
+    <string name="your_income">Your Income</string>
+    <string name="this_month">This Month</string>
+    <string name="monthly_recc">Monthly Recurring</string>
+    <string name="your_tech">Your Technology Resource</string>
+    <string name="tap_button">(Tap one of the Service below for more info)</string>
+    <string name="tap_pa">(Tap here to be taken to your Personal Account)</string>
+
+    <!--frag_phone_services-->
+    <string name="phone_service">Phone Service</string>
+    <string name="call_me">Call Me</string>
+    <string name="contact_client">Contact the Client</string>
+    <string name="consideration">Considerations:-</string>
+    <string name="reliability">Reliability:</string>
+    <string name="cost_savings">Cost Savings:</string>
+    <string name="convenience">Convenience:</string>
+    <string name="functions">Functions&amp; Features:</string>
+    <string name="saving_detail">What services are available at this address</string>
+    <string name="rel_detail">Bandwidth variables</string>
+    <string name="conve_detail">Upfront,Monthly Recurring</string>
+
+    <!--frag_send_quotes-->
+    <string name="send_qoute">Send a Quote</string>
+    <string name="business_name">Businees Name</string>
+    <string name="street_adress">Street Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="message">Message</string>
+    <string name="empty_bussiness">Please Enter Business Name</string>
+    <string name="empty_street">Please Enter Street Address</string>
+    <string name="empty_city">Please Enter City</string>
+    <string name="empty_state">Please Enter State</string>
+    <string name="empty_zip">Please Enter Zip</string>
+    <string name="empty_message">Please Enter Message</string>
+    <string name="quote_success">Send a Quote SuccessFully</string>
+
+    <!--frag_cabling-->
+    <string name="cabling_lbl">Cabling</string>
+    <string name="drop">Drops</string>
+    <string name="type_of_cable">Type of Cable:</string>
+    <string name="server_room">Server Room:</string>
+    <string name="cost">Cost:</string>
+    <string name="time_to_install">Time to Install:</string>
+    <string name="drop_detail">Single,Dual,Multi</string>
+    <string name="type_cable_detail">Cat 5,Cat 6,Fiber</string>
+    <string name="room_detail">Rack vs Backboard</string>
+    <string name="detail_cost">Type of Cable,# of Drops,Re-Use existing</string>
+
+
+    <!--frag_call_me-->
+    <string name="your_cell_number">Your Cell Number</string>
+    <string name="or">Or</string>
+    <string name="other_number">Other Number</string>
+    <string name="messages">Message</string>
+    <string name="empty_cell_num">Please Enter Your Cell Number</string>
+    <string name="empty_other_nub">Please Enter Other Number</string>
+    <string name="empty_mess">Please Enter Message</string>
+    <string name="call_succes">Call Succesfully</string>
+    <string name="empty_service">Please Select Atleast One Service</string>
+
+    <!--frag_contact_client-->
+    <string name="business_nm">Business Name</string>
+    <string name="contact_nm">Contact Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="or_contact">Or</string>
+    <string name="contact_email">Contact Email</string>
+    <string name="messages_contact">Message</string>
+    <string name="empty_business_nm">Please Enter Client Business Name</string>
+    <string name="empty_Contact_nm">Please Enter Client Contact Name</string>
+    <string name="empty_contact_nub">Please Enter Client Cell Number</string>
+    <string name="empty_email">Please Enter Client Email</string>
+    <string name="empty_messages">Please Enter Message</string>
+    <string name="invali_email">Please Enter Valid Email</string>
+    <string name="client_success">Client will be contacted</string>
+
+    <!--frag_internet-->
+    <string name="optoins">Options:</string>
+    <string name="availability">Availability:</string>
+    <string name="speeds">Speeds:</string>
+    <string name="cost_lbl">Cost:</string>
+    <string name="contract_term">Contract Term:</string>
+    <string name="time_to_installe">Time to Install:</string>
+    <string name="option_detail">DSL,Cable,T1,MOE,Fiber</string>
+    <string name="avail_detail">Depends upon address</string>
+    <string name="speed_detail">Bandwidth variables</string>
+    <string name="cost_details">Upfront,Monthly Recurring</string>
+    <string name="term_detail">1,2 or 3 year terms</string>
+    <string name="time_detail">How quickly can be installed</string>
+
+    <!--frag_account-->
+    <string name="account">Your Account</string>
+    <string name="quotes">Quotes</string>
+    <string name="install_pending">Install Pending</string>
+    <string name="non_recurring_income">Non-Recurring Income</string>
+    <string name="monthly_recurring_income">Monthly Recurring Income</string>
+    <string name="request">Requests</string>
+    <string name="pending_">Pending</string>
+
+    <string name="lbl_service_provide">At Your Service, we provide…</string>
+    <string name="lbl_act_content1">A quick, easy and innocent way for you or your\nclient to recieve more information
+    about business\nclass Internet options,Cabling Services and Phone\nSystems. If desired,we will execute and coordinate\n
+    fulfillment of any or all services</string>
+
+    <string name="lbl_act_content2">A source of additional income in the form of One\nTime Payments and Monthly Recurring Residuals
+    \nevery time a referral of yours purchases Internet,\nCabling or Phone Systems through IT Depot</string>
+
+    <string name="login">Login</string>
+    <string name="login_with_existing">Login with your existing account</string>
+    <string name="register">Register</string>
+    <string name="register_detail">Please tell us where you would like to receive\npayments and how you would like to be contacted</string>
+    <string name="activity_report">Activity Report</string>
+    <string name="act_report_detail">Keep track of all payments you are scheduled to\n
+    receive ,or have received, and view an inventory of\nall referrals and the type of services requested</string>
+
+    <!--frag_install_pending-->
+    <string name="client">Client</string>
+    <string name="services">Services</string>
+    <string name="nr_income">NR Income</string>
+    <string name="mr_income">MR Income</string>
+    <string name="Est_install">Est Install</string>
+    <string name="total">Total:</string>
+
+    <!--frag_monthly_recurring_income-->
+    <string name="date_started">Date Started</string>
+
+    <!--frag_non_reccuring-income-->
+    <string name="date_paid">Date Paid</string>
+
+    <!--frag_quotes-->
+    <string name="rqstd">Rqstd</string>
+
+    <!--pre_Login-->
+    <string name="lbl_id">Please Enter Unique Agent Id</string>
+    <string name="empty_unique_id">Please Enter Unique Agent Id</string>
+
+    <!--frag_activity_report-->
+    <string name="ur_account">Your Account</string>
+    <string name="edit">Edit</string>
+    <string name="lbl_edit_help">Address where you would like payments and commissions sent</string>
+    <string name="add">Add</string>
+    <string name="edit_">Edit</string>
+    <string name="requests">Requests:</string>
+    <string name="pending">Pending:</string>
+    <string name="nr_income_">NR Income:</string>
+    <string name="mr_income_">MR Income:</string>
+    <string name="req_for_more">Requests for more information</string>
+    <string name="service_puchased">Services purchased waiting for installation</string>
+    <string name="one_time_finders">One Time Finders Fees</string>
+    <string name="monthly_reccuring">Monthly Recurring Commissions</string>
+    <string name="empty_quote">Could not find Request</string>
+    <string name="empty_nr">Could not find Non Reccuring Income</string>
+
+    <!--frag-internet2-->
+    <string name="lblcost">Cost:</string>
+    <string name="dsl">DSL, Cable:</string>
+    <string name="lblt1">T1:</string>
+    <string name="moe">MOE:</string>
+    <string name="fiber">Fiber:</string>
+    <string name="dsl_value">$65-$250</string>
+    <string name="t1_value">$225-$400</string>
+    <string name="moe_value">$200-$400</string>
+    <string name="fiber_value">$300-$400</string>
+    <string name="install">Install:</string>
+    <string name="days">7 days generally</string>
+    <string name="install_t1">T1,MOE,Fiber:</string>
+    <string name="t1_days">20-60 days</string>
+    <string name="variables">Variables:</string>
+    <string name="avaible_add">Availability  at address</string>
+    <string name="bandwidth">Bandwidth</string>
+    <string name="contract_lenth">Contract Length</string>
+    <string name="promo_offer">Promotional offerings</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="contact_the_client">Contact the Client</string>
+    <string name="lblincome"><u>Your Income</u>\nMonthly Recurring Commissions:\n8% - 12% Depending Upon Carrier</string>
+
+    <!--frag_phone_services-->
+    <string name="lbl_phone_service">Phone Service</string>
+    <string name="lbl_cost_phone">$25 - $35 per Phone, monthly</string>
+    <string name="deployment_value">48 hours, if needed</string>
+    <string name="deployment">Deployment :</string>
+    <string name="advantages">Advantages :</string>
+    <string name="package_">Package :</string>
+    <string name="adavntage_value">Cost Shaving, Reliability, Convenience</string>
+    <string name="package_value1">Unlimited Phone Lines &amp; LD</string>
+    <string name="package_value2">100+ State of the Art Features</string>
+    <string name="pacakge_value3">Voice Mail - Email Integrations</string>
+    <string name="package_value4">Cell Phone Integrations</string>
+    <string name="package_value5">Outlook, Salesforce,CRM Integrations</string>
+    <string name="package_value6">Video Calling</string>
+    <string name="package_value7">Call Recording</string>
+    <string name="package_value8">Auto Attendant and Music on Hold</string>
+    <string name="income_phone_servie"><u>Your Income</u>\nMonthly Recurring Commissions :\n15% </string>
+
+    <!--frag_cabling-->
+    <string name="type">Type:</string>
+    <string name="type_detail">Voice, Data, TV, Audio/Video </string>
+    <string name="cost_detail">$90-$150 per Cable Run</string>
+    <string name="install_cable">Install:</string>
+    <string name="install_detail">1-3 Days, generally</string>
+    <string name="variable_cable">Variables:</string>
+    <string name="variable_detail1">Cable-cat 5,Cat 6,Fiber,Coax \nServer Room-Patch Panel,Rack,Shelf</string>
+    <string name="variable_detail2">Server Room-Patch Panel,Rack,Shelf</string>
+    <string name="varible_detail3">Terminations-Face Plates,Jacks\nEnvironment-Distance, Conduit , Furniture</string>
+    <string name="varible_detail4">Environment-Distance,Conduit</string>
+    <string name="varible_detail5">Furniture</string>
+    <string name="cable_income"><u>Your Income</u>\nOne Time Payment:\n8%</string>
+
+    <!--frag_contact_client-->
+    <string name="lbl_select_service">Select Service(s) to request More Information</string>
+    <string name="lbl_contact_detail2">On your behalf, we will contact the Client within  4 hours to answer any questions and provide help if needed.</string>
+    <string name="lbl_contact_detail3">Please provide the contact information below.</string>
+    <string name="client_business_nm">Client Business Name</string>
+    <string name="client_contact">Contact Name</string>
+    <string name="client_cell">Client Cell Number</string>
+    <string name="or_">Or</string>
+    <string name="client_email">Client Email</string>
+    <string name="message_">Message</string>
+    <string name="install_msg">Enter installation address and/or your message</string>
+
+    <!--frag_contact_me-->
+    <string name="lblMeEmail">You will receive a Return Phone Call within\n1 hour or an Email response within 2 hours</string>
+    <string name="lbl_plz_select">Please select how you prefer to be contacted, and enter a phone Number or Email, if it is not already indicated</string>
+    <string name="lbl_plz_select_2">Please select how you would like to be contacted.</string>
+    <string name="lbl_msg_box">In the Message box,please enter the address of the Service(s) to be installed, and or a Message and then press the Contact Me button</string>
+    <string name="your_cell_nub">Your Cell Number</string>
+    <string name="email">Email</string>
+    <string name="enterEmail">Please Enter Email Address</string>
+    <string name="invalidEmail">Please Enter Valid Email Address</string>
+    <string name="enter_install_msg">Enter installation address and/or you message</string>
+
+    <!--frag_login-->
+    <string name="login_">Login</string>
+    <string name="login_email">Email</string>
+    <string name="phone_nub">Phone Number</string>
+    <string name="wrong_login">email_id or phone is wrong.</string>
+
+    <!--frag_register-->
+    <string name="registration">Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_reg">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="adress">Adress where you would like payments and  commisions sent</string>
+    <string name="cmp">Company(Optional)</string>
+    <string name="street">Street Address</string>
+    <string name="suite">Suite #</string>
+    <string name="city_">City</string>
+    <string name="state_">State</string>
+    <string name="zip_">Zip</string>
+    <string name="lbl_receive_mail">You will recieve an email confirmation of your registration. At any time,you may update your registration information</string>
+    <string name="save">SAVE</string>
+
+    <string name="with_it">With IT Depot you get…</string>
+    <string name="a_resource">A Resource</string>
+    <string name="easily_get">Quickly &amp; easily get answer and solutions for Internet, Phones, and Cabling</string>
+    <string name="keep_track">Keep track of all of your client"'"s requests and purchases</string>
+    <string name="a_source_of_ic">A Source of Income, whenever a referral makes a purchase through IT Depot</string>
+    <string name="one_time">One-Time Finders Fees</string>
+    <string name="cabling_job">8% of Cabling &amp; Wiring jobs</string>
+    <string name="mr_commi">Monthly Recurring Commissions</string>
+    <string name="mi_services">5% - 10% of Monthly Internet Services</string>
+    <string name="phone_ser_pack">15% of Monthly Phone Service Packages</string>
+    <string name="at_your_service">At Your Service, we provide…</string>
+    <string name="ans_and_sloution"><b><u>Answers &amp; Solutions:</u></b>  A quick and easy way for you or your client to receive more information about business class Internet options, Cabling Services and Phone Systems.  We provide answers, and if desired, coordinate  delivery or  fulfillment of all services</string>
+    <string name="src_of_income"><b><u>Source of Income:</u></b>   Receive  One Time Payments and Monthly Recurring Residuals every time  a referral of yours purchases Internet, Cabling or Phone Systems through IT Depot.  Additionally, you will have an inventory of all Requests, Pending Installs and  Sources of Income</string>
+
+    <string name="empty_fname">Please Enter First Name</string>
+    <string name="empty_lname">Please Enter Last Name</string>
+    <string name="empty_mail">Please Enter Email</string>
+    <string name="empty_pnub">Please Enter Phone Number</string>
+    <string name="empty_street_">Please Enter Street</string>
+    <string name="empty_suit">Please Enter Suit</string>
+    <string name="empty_city_">Please Enter City</string>
+    <string name="empty_state_">Please Enter State</string>
+    <string name="empty_zip_">Please Enter Zip</string>
+
+    <!--pop_Register Alert-->
+    <string name="lbl_register_user">Please register your account to access that feature. Don"'"t worry, it"'"s quick and easy.</string>
+    <string name="lbl_pop_cnt_register">Before proceeding, please register yourself.</string>
+    <string name="lbl_continue">Continue</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="register_">REGISTER</string>
+    <string name="click_here">Click here</string>
+
+    <!--pop confrim register-->
+    <string name="lbl_wlcm_it">Welcome to IT Depot !</string>
+    <string name="lbl_register_confrim">You have now successfully registered with IT Depot</string>
+    <string name="net_not_avilable">Netwrok is not Availble.</string>
+
+    <string name="user_not_found">User not found. Please signup!</string>
+
+</resources>

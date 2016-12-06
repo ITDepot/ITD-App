@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding"
+                android:layout_weight=".4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lblFnameAct"
+                    style="@style/normal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    android:background="@color/gray_light"
+                    android:gravity="center"
+                    android:padding="@dimen/small_l" />
+
+                <TextView
+                    android:id="@+id/lblEmailAct"
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:background="@color/gray_light"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:padding="@dimen/small_l" />
+
+                <TextView
+                    android:id="@+id/lblPhoneAct"
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:background="@color/gray_light"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:padding="@dimen/small_l" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEdit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/very_high_padding"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/high_padding"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/contact_button_back" />
+
+                    <TextView
+                        style="@style/normal_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/edit"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:gravity="center"
+                    android:padding="@dimen/small_l"
+                    android:text="@string/lbl_edit_help" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/high_padding"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/high_padding"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:singleLine="true"
+                    android:text="@string/requests" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:singleLine="true"
+                    android:text="@string/req_for_more" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:singleLine="true"
+                    android:text="@string/pending" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:singleLine="true"
+                    android:text="@string/service_puchased" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:singleLine="true"
+                    android:text="@string/nr_income_" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:singleLine="true"
+                    android:text="@string/one_time_finders" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:singleLine="true"
+                    android:text="@string/mr_income_" />
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:singleLine="true"
+                    android:text="@string/monthly_reccuring" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/big_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:background="@color/gray_light"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding"
+            android:paddingTop="@dimen/common_padding"
+            android:text="@string/ur_account"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:id="@+id/llQuote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textview_activity"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/normal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding"
+                    android:singleLine="true"
+                    android:text="@string/request" />
+
+                <View
+                    android:id="@+id/viewQuote"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_padding"
+                    android:background="@drawable/view_activity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llInstallpending"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textview_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/normal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding"
+                    android:singleLine="true"
+                    android:text="@string/pending_" />
+
+                <View
+                    android:id="@+id/viewPending"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_padding"
+                    android:background="@drawable/view_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llNrIncome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textview_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/normal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding"
+                    android:singleLine="true"
+                    android:text="@string/nr_income" />
+
+                <View
+                    android:id="@+id/viewNrIncome"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_padding"
+                    android:background="@drawable/view_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llMrIncome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textview_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/normal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding"
+                    android:singleLine="true"
+                    android:text="@string/mr_income" />
+
+                <View
+                    android:id="@+id/viewMrIncome"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_padding"
+                    android:background="@drawable/view_gray" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pagerAccount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

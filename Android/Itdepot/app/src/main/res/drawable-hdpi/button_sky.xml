@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+
+            <padding android:bottom="@dimen/small_padding" android:left="@dimen/high_padding" android:right="@dimen/high_padding" android:top="@dimen/small_padding" />
+            <corners android:bottomLeftRadius="@dimen/common_padding" android:bottomRightRadius="@dimen/common_padding" android:topLeftRadius="@dimen/common_padding" android:topRightRadius="@dimen/common_padding" />
+            <solid android:color="@color/light_blue" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+
+            <padding android:bottom="@dimen/small_padding" android:left="@dimen/high_padding" android:right="@dimen/high_padding" android:top="@dimen/small_padding" />
+            <corners android:bottomLeftRadius="@dimen/common_padding" android:bottomRightRadius="@dimen/common_padding" android:topLeftRadius="@dimen/common_padding" android:topRightRadius="@dimen/common_padding" />
+            <solid android:color="@color/colorBlue" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+
+            <padding android:bottom="@dimen/small_padding" android:left="@dimen/high_padding" android:right="@dimen/high_padding" android:top="@dimen/small_padding" />
+            <corners android:bottomLeftRadius="@dimen/common_padding" android:bottomRightRadius="@dimen/common_padding" android:topLeftRadius="@dimen/common_padding" android:topRightRadius="@dimen/common_padding" />
+            <gradient android:angle="270" android:endColor="@color/colorBlue" android:startColor="@color/colorBlue" />
+        </shape>
+    </item>
+</selector>

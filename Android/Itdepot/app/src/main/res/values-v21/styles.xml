@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+    </style>
+
+    <!---->
+    <style name="normal_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+    </style>
+
+    <style name="small_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="very_small_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSizeVerySmall</item>
+    </style>
+
+
+    <style name="big_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSizeVeryBig</item>
+    </style>
+
+    <style name="midd_big_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSizeMiddBig</item>
+    </style>
+
+    <style name="very_very_big">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSizeHeaderKaBaap</item>
+    </style>
+    <!---->
+
+</resources>

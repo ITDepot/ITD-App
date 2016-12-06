@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/your_act_back"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/big_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/very_high_padding"
+            android:background="@color/dark_black"
+            android:gravity="center"
+            android:padding="@dimen/high_padding"
+            android:text="@string/account"
+            android:textColor="@color/white" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/normal_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    fontPath="fonts/Campton-SemiBold.ttf"
+                    android:text="@string/lbl_service_provide" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/lbl_act_content1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/high_padding"
+                    android:layout_marginTop="@dimen/high_padding"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_next_arrow"
+                        android:layout_height="@dimen/img_next_arrow"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_black" />
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:text="@string/lbl_act_content2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/high_padding"
+                        android:text="@string/login"
+                        fontPath="fonts/Campton-ExtraBold.ttf"
+                        android:textColor="@color/colorBlue" />
+
+                    <ImageView
+                        android:layout_width="@dimen/img_arrow_next"
+                        android:layout_height="@dimen/img_arrow_next"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_blue" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:text="@string/login_with_existing" />
+
+                <LinearLayout
+                    android:id="@+id/llRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/high_padding"
+                        android:text="@string/register"
+                        fontPath="fonts/Campton-ExtraBold.ttf"
+                        android:textColor="@color/colorBlue" />
+
+                    <ImageView
+                        android:layout_width="@dimen/img_arrow_next"
+                        android:layout_height="@dimen/img_arrow_next"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_blue" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:text="@string/register_detail" />
+
+                <LinearLayout
+                    android:id="@+id/llActivityReport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/very_high_padding"
+                    android:layout_marginTop="@dimen/very_high_padding"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/small_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/high_padding"
+                        android:text="@string/activity_report"
+                        fontPath="fonts/Campton-ExtraBold.ttf"
+                        android:textColor="@color/colorBlue" />
+
+                    <ImageView
+                        android:layout_width="@dimen/img_arrow_next"
+                        android:layout_height="@dimen/img_arrow_next"
+                        android:layout_marginLeft="@dimen/common_padding"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/arrow_next_blue" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/small_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/very_high_padding"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="@dimen/common_padding"
+                    android:text="@string/act_report_detail" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
